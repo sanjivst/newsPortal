@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0dcbdc80776ca79d6311b8f92c5a4b5",
+    "content-hash": "d92d189c812169091f2c8bd30990a8c2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -688,6 +688,54 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "kirill-latish/laravel-newsapi",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kirill-latish/laravel-newsapi.git",
+                "reference": "deb072d28bfdc6ffbd58647404c16b0b04f94c0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kirill-latish/laravel-newsapi/zipball/deb072d28bfdc6ffbd58647404c16b0b04f94c0a",
+                "reference": "deb072d28bfdc6ffbd58647404c16b0b04f94c0a",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "laravel/laravel": "5.6",
+                "phpunit/phpunit": "^7.0.2"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-0": {
+                    "NewsAPI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Latish",
+                    "email": "kirill@livezone.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel wrapper for https://newsapi.org/",
+            "keywords": [
+                "api",
+                "framework",
+                "laravel",
+                "news"
+            ],
+            "time": "2018-05-04T14:09:09+00:00"
         },
         {
             "name": "laravel/framework",
